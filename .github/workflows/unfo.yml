@@ -1,0 +1,29 @@
+name: Unfollow Non-Followers
+
+on:
+  schedule:
+    # Runs at 12:00 AM every Monday
+    - cron: '0 */3 * * *' 
+
+jobs:
+  unfollow_non_followers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: Unfollow users who don't follow back
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          python main.py ${{ secrets.GH_TOKEN }}
+        shell: bash -l {0}
