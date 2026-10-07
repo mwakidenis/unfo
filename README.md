@@ -92,3 +92,29 @@ In your forked repository:
 The repository currently runs **every 3 hours**, and can be changed in the `unfollow.yml` file under the `.github/workflows` directory using cron logic.
 
 The current cron schedule is set to run every 3 hours. The schedule can be updated in the workflow yml:
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+### 𝟏𝟑. 𝐋𝐈𝐂𝐄𝐍𝐒𝐄 𝐇𝐄𝐀𝐃𝐄𝐑 𝐅𝐎𝐑 𝐒𝐎𝐔𝐑𝐂𝐄 𝐅𝐈𝐋𝐄𝐒
+
+<details>
+<summary>𝗧𝗔𝗣 𝗧𝗢 𝗩𝗜𝗘𝗪</summary>
+
+GPL v2.0 recommends putting a short copyright notice at the **top of every source file**. Add this to the top of `main.py` (and any other `.py` file):
+
+```python
+# Unfollower - GitHub Actions auto-unfollow tool
+# Copyright (C) 2026  mwakidenis
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
