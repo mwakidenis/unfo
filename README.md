@@ -87,33 +87,36 @@ In your forked repository:
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-### 𝟓. 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 𝐂𝐎𝐍𝐅𝐈𝐆:
-
-The repository currently runs **every 5 days**, and can be changed in the `unfollow.yml` file under the `.github/workflows` directory using cron logic.
-
-The current cron schedule is set to run every 3 hours. The schedule can be updated in the workflow yml:
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-### 6. 𝐋𝐈𝐂𝐄𝐍𝐒𝐄 𝐇𝐄𝐀𝐃𝐄𝐑 𝐅𝐎𝐑 𝐒𝐎𝐔𝐑𝐂𝐄 𝐅𝐈𝐋𝐄𝐒
+### 5. 𝐇𝐎𝐖 𝐓𝐎 𝐌𝐀𝐍𝐔𝐀𝐋𝐋𝐘 𝐓𝐑𝐈𝐆𝐆𝐄𝐑 𝐓𝐇𝐄 𝐖𝐎𝐑𝐊𝐅𝐋𝐎𝐖:
 
 <details>
-<summary>𝗧𝗔𝗣 𝗧𝗢 𝗩𝗜𝗘𝗪</summary>
+<summary>𝗧𝗔𝗣 𝗧𝗢 𝗢𝗣𝗘𝗡</summary>
+
+The workflow is set to run automatically every 5 days, but you can also trigger it **manually at any time** without waiting for the schedule. This is useful for testing, or when you want to unfollow immediately.
+
+---
+
+**📱 Method 1 — From the GitHub Website (easiest)**
+
+1. Open your forked repository in a browser: `https://github.com/YOUR_USERNAME/unfollower`
+2. Click the **Actions** tab at the top of the repo.
+3. In the **left sidebar**, click **Unfollow Non-Followers**.
+4. On the right side, click the **Run workflow** dropdown button.
+5. Make sure the branch is set to **main** (or your default branch).
+6. Click the green **Run workflow** button.
+7. Refresh the page — a new run will appear at the top with a **yellow dot** (running). Once it finishes, it turns **green** (success) or **red** (failed).
+
+---
+
+**💻 Method 2 — Using GitHub CLI (`gh`)**
+
+If you have the [GitHub CLI](https://cli.github.com/) installed and authenticated, run:
+
+```bash
+gh workflow run "Unfollow Non-Followers" --repo YOUR_USERNAME/unfollower
 
 
-```python
-# Unfollower - GitHub Actions auto-unfollow tool
-# Copyright (C) 2026  mwakidenis
-#
-# This program is free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation; either version 2 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License along
-# with this program; if not, write to the Free Software Foundation, Inc.,
-# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
