@@ -87,8 +87,6 @@ In your forked repository:
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
 ### 5. 𝐇𝐎𝐖 𝐓𝐎 𝐌𝐀𝐍𝐔𝐀𝐋𝐋𝐘 𝐓𝐑𝐈𝐆𝐆𝐄𝐑 𝐓𝐇𝐄 𝐖𝐎𝐑𝐊𝐅𝐋𝐎𝐖:
 
 <details>
