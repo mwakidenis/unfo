@@ -89,7 +89,7 @@ In your forked repository:
 
 ### 𝟓. 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 𝐂𝐎𝐍𝐅𝐈𝐆:
 
-The repository currently runs **every 3 hours**, and can be changed in the `unfollow.yml` file under the `.github/workflows` directory using cron logic.
+The repository currently runs **every 5 days**, and can be changed in the `unfollow.yml` file under the `.github/workflows` directory using cron logic.
 
 The current cron schedule is set to run every 3 hours. The schedule can be updated in the workflow yml:
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
