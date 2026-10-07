@@ -99,7 +99,6 @@ The current cron schedule is set to run every 3 hours. The schedule can be updat
 <details>
 <summary>𝗧𝗔𝗣 𝗧𝗢 𝗩𝗜𝗘𝗪</summary>
 
-GPL v2.0 recommends putting a short copyright notice at the **top of every source file**. Add this to the top of `main.py` (and any other `.py` file):
 
 ```python
 # Unfollower - GitHub Actions auto-unfollow tool
