@@ -94,7 +94,7 @@ The repository currently runs **every 3 hours**, and can be changed in the `unfo
 The current cron schedule is set to run every 3 hours. The schedule can be updated in the workflow yml:
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-### 𝟏𝟑. 𝐋𝐈𝐂𝐄𝐍𝐒𝐄 𝐇𝐄𝐀𝐃𝐄𝐑 𝐅𝐎𝐑 𝐒𝐎𝐔𝐑𝐂𝐄 𝐅𝐈𝐋𝐄𝐒
+### 6. 𝐋𝐈𝐂𝐄𝐍𝐒𝐄 𝐇𝐄𝐀𝐃𝐄𝐑 𝐅𝐎𝐑 𝐒𝐎𝐔𝐑𝐂𝐄 𝐅𝐈𝐋𝐄𝐒
 
 <details>
 <summary>𝗧𝗔𝗣 𝗧𝗢 𝗩𝗜𝗘𝗪</summary>
